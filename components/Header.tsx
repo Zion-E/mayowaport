@@ -24,15 +24,19 @@ export default function Header({}: Props) {
         }}
         className="flex flex-row items-center">
             {/* Social Icons */}
-            <SocialIcon url="https://twitter.com/idowuzion" 
+            <SocialIcon url="https://www.linkedin.com/in/idowu-akinsanmi-b34420153/" 
             fgColor='gray' 
             bgColor='transparent' 
             />
-            <SocialIcon url="https://twitter.com/idowuzion" 
+            <SocialIcon url="https://web.facebook.com/akinsanmi.idowu/" 
             fgColor='gray' 
             bgColor='transparent' 
             />
-            <SocialIcon url="https://twitter.com/idowuzion" 
+            <SocialIcon url="https://twitter.com/idowu_zion" 
+            fgColor='gray' 
+            bgColor='transparent' 
+            />
+            <SocialIcon url="https://wa.me/2348101520347" 
             fgColor='gray' 
             bgColor='transparent' 
             />

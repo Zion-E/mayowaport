@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 type Props = {}
 
-function ExperienceCard({}: Props) {
+function ExperienceCard1({}: Props) {
   return (
     <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 
     w-[500px] md:w-[600px] xl:w-[800px] snap-center bg-[#292929] p-10
@@ -22,40 +22,38 @@ function ExperienceCard({}: Props) {
         />
 
         <div className="px-0 md:px-10">
-            <h4 className="text-4xl font-light">Software Developer</h4>
-            <p className="font-bold text-2xl mt-2">Remote Work</p>
+            <h4 className="text-4xl font-light">Digital Marketer/Copywriter</h4>
+            <p className="font-bold text-2xl mt-2">FairShop - Anter Technologies</p>
             <div className="flex space-x-2 my-2">
                 <img 
                 className="h-10 w-10 rounded-full"
-                src="https://i.ibb.co/3MVjRjX/homeoffice.jpg" 
-                alt="stillme" 
+                src="https://i.ibb.co/5LHqXM3/fairShop.jpg" 
+                alt="fairshop" 
                 />
                 <img 
                 className="h-10 w-10 rounded-full"
-                src="https://i.ibb.co/3MVjRjX/homeoffice.jpg" 
-                alt="stillme" 
+                src="https://i.ibb.co/5LHqXM3/fairShop.jpg" 
+                alt="fairshop" 
                 />
                 <img 
                 className="h-10 w-10 rounded-full"
-                src="https://i.ibb.co/3MVjRjX/homeoffice.jpg" 
-                alt="stillme" 
+                src="https://i.ibb.co/5LHqXM3/fairShop.jpg" 
+                alt="fairshop" 
                 />
             </div>
             <p className="py-5 text-gray-300">
-                Started work 15th February, 2022 till date.
+                Started work 7th June, 2021. Ended 1st November, 2021.
             </p>
 
             <ul className="list-disc space-y-4 ml-5 text-lg">
-                <li>Uses React.js</li>
-                <li>Tailwind CSS</li>
-                <li>Bootstrap</li>
-                <li>React TypeScript</li>
-                <li>Cascading Styling Sheet CSS</li>
-                <li>HTML</li>
+                <li>Facebook Marketing</li>
+                <li>Instagram Marketing </li>
+                <li>Copywriting</li>
+                <li>Ad Sponsorship</li>
             </ul>
         </div>
     </article>
   )
 }
 
-export default ExperienceCard
+export default ExperienceCard1

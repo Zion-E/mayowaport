@@ -1,6 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import ExperienceCard from './ExperienceCard'
+import ExperienceCard1 from './ExperienceCard1'
+import ExperienceCard2 from './ExperienceCard2'
 
 type Props = {}
 
@@ -19,8 +21,8 @@ function WorkExperience({}: Props) {
         <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x 
         snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7abba]/80">
             <ExperienceCard />
-            <ExperienceCard />
-            <ExperienceCard />
+            <ExperienceCard1 />
+            <ExperienceCard2 />
         </div>
     </motion.div>
   )
