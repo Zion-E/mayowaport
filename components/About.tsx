@@ -39,7 +39,7 @@ function About({}: Props) {
                 background
             </h4>
             <p className="text-base">
-                I'm Idowu Mayowa, a continuous learner in the world of React and developing in general.
+                I am Idowu Mayowa, a continuous learner in the world of React and developing in general.
                 As a graduate of computer engineering, I embarked on coding and developing as a full time passion
                 after working with some organization and saw the need to make life easier for individuals and 
                 organization.

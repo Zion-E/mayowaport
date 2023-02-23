@@ -46,7 +46,7 @@ const Projects = (props: Props) => {
                         </h4>
                        
                         <h4 className=" text-2xl font-semibold text-center">
-                            Meals' App - {" "}
+                            Meals App - {" "}
                             <Link href='https://mayowa-meals-app--idowuakinsanmi.repl.co/'>
                                 https://mayowa-meals-app--idowuakinsanmi.repl.co/
                             </Link>
